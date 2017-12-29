@@ -20,6 +20,8 @@ and optional `:params` and `:data` alists. Returns an alist.
 
 Easy, no authentication required.
 
+On error, it prints the error message on `*error-output*` and returns nil.
+
 ## See also
 
 - https://github.com/hanshuebner/cl-github-v3/ - defines a couple functions for api actions. Uncomplete.
